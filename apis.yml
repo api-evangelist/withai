@@ -1,7 +1,24 @@
 aid: withai
-name: Withai
-description: Withai is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: WithAI
+description: WithAI is a San Francisco-based Y Combinator (Spring 2026) company building
+  Multiplier, a secure AI platform for institutional investors and independent equity
+  hedge funds. Multiplier unifies structured data, unstructured data, AI agents, human
+  work, and firm knowledge so investment teams can research stocks and manage portfolios
+  more efficiently, with an integration ecosystem spanning Bloomberg, FactSet, Enfusion,
+  Snowflake, and other market data and infrastructure platforms. WithAI does not currently
+  publish a public API, developer portal, or documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://withai.co/icon2.svg
 url: https://raw.githubusercontent.com/api-evangelist/withai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Investment Management
+- Hedge Funds
+- Financial Services
+- Investment Research
 apis: []
+common:
+- type: DomainSecurity
+  url: security/withai-domain-security.yml
+- name: Website
+  type: Website
+  url: https://withai.co
+- name: Careers
+  type: Careers
+  url: https://withai.co/careers
+- name: Team
+  type: Team
+  url: https://withai.co/team
+- name: Terms of Service
+  type: TermsOfService
+  url: https://withai.co/terms
+- name: Privacy Policy
+  type: PrivacyPolicy
+  url: https://withai.co/privacy
+- name: LinkedIn
+  type: LinkedIn
+  url: https://www.linkedin.com/company/withai-inc/
+- name: Twitter
+  type: Twitter
+  url: https://x.com/withai_inc
+- name: Y Combinator Profile
+  type: YCombinatorProfile
+  url: https://www.ycombinator.com/companies/withai
+- name: LLMs.txt
+  type: LLMsTxt
+  url: llms/withai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

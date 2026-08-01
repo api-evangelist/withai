@@ -1,0 +1,26 @@
+generated: '2026-07-21'
+method: searched
+source: https://withai.co
+host: https://withai.co
+notes: WithAI publishes no /.well-known/ discovery surface as of this probe date. All
+  paths below were fetched live and returned the recorded status. No documents were
+  saved because none returned 200.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
+- path: /sitemap.xml
+  status: 404
