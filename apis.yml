@@ -7,6 +7,17 @@ description: WithAI is a San Francisco-based Y Combinator (Spring 2026) company 
   more efficiently, with an integration ecosystem spanning Bloomberg, FactSet, Enfusion,
   Snowflake, and other market data and infrastructure platforms. WithAI does not currently
   publish a public API, developer portal, or documentation.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
