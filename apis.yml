@@ -46,7 +46,7 @@ tags:
 - AI Agents
 - Investment Management
 - Hedge Funds
-- Financial-Services
+- Financial Services
 - Investment Research
 tags_raw:
 - Company
@@ -56,6 +56,7 @@ tags_raw:
 - Hedge Funds
 - Financial Services
 - Investment Research
+- Financial-Services
 apis: []
 common:
 - type: DomainSecurity
